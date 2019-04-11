@@ -11,7 +11,16 @@ impedance in power transmission lines.
 
 ## Design requirements
 
-- [ ] Current limiting for WS2811 connector
+- [ ] On-board schottky diode for USB power
+- [ ] Power LED
+- [ ] Push buttons
 - [ ] Connector for SPI expansion board
 - [x] Connector for WS2811 expansion board
+- [ ] Potentiometer
 
+## Design ideas
+
+- [ ] ESD protection for SPI?
+- [ ] Push button LEDs
+- [ ] Current limiting for WS2811 connector
+- [ ] Current limiting bypass for WS2811 connector
