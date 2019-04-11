@@ -11,7 +11,7 @@ impedance in power transmission lines.
 
 ## Design requirements
 
-- [ ] On-board schottky diode for USB power
+- [x] On-board schottky diode for USB power
 - [ ] Power LED
 - [x] Push buttons
 - [ ] Connector for SPI expansion board
