@@ -17,10 +17,11 @@ impedance in power transmission lines.
 - [ ] Connector for SPI expansion board
 - [x] Connector for WS2811 expansion board
 - [x] Potentiometer
+- [ ] Level shifter for OCTO1
+- [ ] Current limiting resistor for OCTO1
 
 ## Design ideas
 
 - [ ] ESD protection for SPI?
 - [ ] Push button LEDs
-- [ ] Current limiting for WS2811 connector
-- [ ] Current limiting bypass for WS2811 connector
+- [ ] Current limiting for WS2811 +5V
