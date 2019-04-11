@@ -24,32 +24,13 @@ F 3 "" H 5550 2950 60  0000 C CNN
 	1    5550 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5CAEAFA2
-P 4050 4700
-F 0 "JP?" V 4000 4500 50  0000 L CNN
-F 1 "OCTO_DMA" V 4100 4250 50  0000 L CNN
-F 2 "" H 4050 4700 50  0001 C CNN
-F 3 "~" H 4050 4700 50  0001 C CNN
-	1    4050 4700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 4850 4200 4850
-Wire Wire Line
-	4200 4850 4200 4650
-Wire Wire Line
-	4200 4650 4550 4650
-Wire Wire Line
-	4050 4550 4550 4550
 Wire Wire Line
 	4550 2450 4150 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5CAF349B
 P 4150 2450
-F 0 "#PWR?" H 4150 2200 50  0001 C CNN
+F 0 "#PWR0101" H 4150 2200 50  0001 C CNN
 F 1 "GND" H 4155 2277 50  0000 C CNN
 F 2 "" H 4150 2450 50  0001 C CNN
 F 3 "" H 4150 2450 50  0001 C CNN
@@ -57,10 +38,10 @@ F 3 "" H 4150 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5CAF9084
 P 1600 950
-F 0 "#PWR?" H 1600 800 50  0001 C CNN
+F 0 "#PWR0102" H 1600 800 50  0001 C CNN
 F 1 "+5V" H 1615 1123 50  0000 C CNN
 F 2 "" H 1600 950 50  0001 C CNN
 F 3 "" H 1600 950 50  0001 C CNN
@@ -79,32 +60,6 @@ F 4 "https://www.digikey.com/product-detail/en/qt-brightek-qtb/QBLP615-IB/1516-1
 	1    1600 1600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1600 1850 1600 1750
-Wire Wire Line
-	1600 1850 1700 1850
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5CAFA188
-P 1700 1850
-F 0 "#FLG?" H 1700 1925 50  0001 C CNN
-F 1 "PWR_FLAG" V 1700 1978 50  0000 L CNN
-F 2 "" H 1700 1850 50  0001 C CNN
-F 3 "~" H 1700 1850 50  0001 C CNN
-	1    1700 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5CAFA799
-P 1700 1050
-F 0 "#FLG?" H 1700 1125 50  0001 C CNN
-F 1 "PWR_FLAG" V 1700 1178 50  0000 L CNN
-F 2 "" H 1700 1050 50  0001 C CNN
-F 3 "~" H 1700 1050 50  0001 C CNN
-	1    1700 1050
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 5CAFC6EE
@@ -116,25 +71,104 @@ F 3 "~" H 1600 1300 50  0001 C CNN
 	1    1600 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 1150 1600 1050
-Wire Wire Line
-	1600 1050 1700 1050
-Wire Wire Line
-	1600 1050 1600 950 
-Connection ~ 1600 1050
-Wire Wire Line
-	1600 1850 1600 1950
-Connection ~ 1600 1850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5CB06266
 P 1600 1950
-F 0 "#PWR?" H 1600 1700 50  0001 C CNN
+F 0 "#PWR0103" H 1600 1700 50  0001 C CNN
 F 1 "GND" H 1605 1777 50  0000 C CNN
 F 2 "" H 1600 1950 50  0001 C CNN
 F 3 "" H 1600 1950 50  0001 C CNN
 	1    1600 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5CB2E868
+P 2200 1400
+F 0 "J1" H 2280 1392 50  0000 L CNN
+F 1 "Conn_01x02" H 2280 1301 50  0000 L CNN
+F 2 "" H 2200 1400 50  0001 C CNN
+F 3 "~" H 2200 1400 50  0001 C CNN
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 1500
+Connection ~ 1600 1900
+Wire Wire Line
+	1600 1900 1600 1950
+Wire Wire Line
+	2000 1400 2000 1000
+Wire Wire Line
+	2000 1000 1600 1000
+Connection ~ 1600 1000
+Wire Wire Line
+	1600 1000 1600 950 
+Wire Wire Line
+	1600 1000 1600 1150
+Wire Wire Line
+	1600 1750 1600 1900
+Wire Wire Line
+	6550 4550 6850 4550
+Wire Wire Line
+	6850 4550 6850 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB36CF0
+P 6850 4450
+F 0 "#PWR?" H 6850 4300 50  0001 C CNN
+F 1 "+5V" H 6865 4623 50  0000 C CNN
+F 2 "" H 6850 4450 50  0001 C CNN
+F 3 "" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 4250
+NoConn ~ 6550 4150
+NoConn ~ 6550 4050
+NoConn ~ 6550 2450
+NoConn ~ 6550 2550
+NoConn ~ 6550 2750
+NoConn ~ 6550 2850
+NoConn ~ 6550 2950
+NoConn ~ 6550 3050
+NoConn ~ 6550 3150
+NoConn ~ 6550 3250
+NoConn ~ 6550 3350
+NoConn ~ 6550 3450
+NoConn ~ 6550 3550
+NoConn ~ 6550 3650
+NoConn ~ 6550 3750
+NoConn ~ 6550 3850
+NoConn ~ 6550 3950
+NoConn ~ 6550 4350
+NoConn ~ 6550 4450
+NoConn ~ 6550 4650
+NoConn ~ 6550 4750
+NoConn ~ 4550 4250
+NoConn ~ 4550 4150
+NoConn ~ 4550 4050
+NoConn ~ 4550 3950
+NoConn ~ 4550 3850
+NoConn ~ 4550 2950
+NoConn ~ 6550 2650
+Text Label 4550 2750 2    50   ~ 0
+OCTO1
+Text Label 4550 4450 2    50   ~ 0
+OCTO2
+Text Label 4550 3250 2    50   ~ 0
+OCTO3
+Text Label 4550 3350 2    50   ~ 0
+OCTO4
+Text Label 4550 3150 2    50   ~ 0
+OCTO5
+Text Label 4550 5050 2    50   ~ 0
+OCTO6
+Text Label 6550 5050 0    50   ~ 0
+OCTO7
+Text Label 4550 3050 2    50   ~ 0
+OCTO8
 $EndSCHEMATC
