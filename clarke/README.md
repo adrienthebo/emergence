@@ -16,7 +16,7 @@ impedance in power transmission lines.
 - [ ] Push buttons
 - [ ] Connector for SPI expansion board
 - [x] Connector for WS2811 expansion board
-- [ ] Potentiometer
+- [x] Potentiometer
 
 ## Design ideas
 
