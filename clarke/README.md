@@ -13,7 +13,7 @@ impedance in power transmission lines.
 
 - [ ] On-board schottky diode for USB power
 - [ ] Power LED
-- [ ] Push buttons
+- [x] Push buttons
 - [ ] Connector for SPI expansion board
 - [x] Connector for WS2811 expansion board
 - [x] Potentiometer
