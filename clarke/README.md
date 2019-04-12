@@ -16,8 +16,9 @@ impedance in power transmission lines.
 ## Design requirements
 
 - [x] Power LED
+- [ ] Power LED current limiting
 - [x] Push buttons
-- [ ] Connector for SPI expansion board
+- [x] Connector for SPI expansion board
 - [x] Connector for WS2811 expansion board
 - [x] Potentiometer
 - [ ] Level shifter for OCTO1 (74LV1T125)
