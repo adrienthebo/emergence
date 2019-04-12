@@ -376,17 +376,13 @@ F 3 "~" H 10500 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10300 2800 10100 2800
-Text Label 10100 3000 2    50   ~ 0
+Text Label 9000 2800 2    50   ~ 0
 MOSI
-Text Label 10100 3100 2    50   ~ 0
+Text Label 9000 3000 2    50   ~ 0
 MISO
-Wire Wire Line
-	10100 2900 10300 2900
-Text Label 10100 2900 2    50   ~ 0
+Text Label 9000 2600 2    50   ~ 0
 SCK
-Wire Wire Line
-	10100 3000 10300 3000
-Text Label 10100 3200 2    50   ~ 0
+Text Label 9000 3200 2    50   ~ 0
 ~CS1
 Wire Wire Line
 	10300 3300 10100 3300
@@ -604,10 +600,6 @@ Wire Wire Line
 Text Label 6750 4950 0    50   ~ 0
 SW3
 Wire Wire Line
-	10100 3200 10300 3200
-Wire Wire Line
-	10300 3100 10100 3100
-Wire Wire Line
 	10100 2800 10100 2700
 $Comp
 L power:+5V #PWR?
@@ -665,4 +657,76 @@ Wire Wire Line
 	4350 3550 4350 3650
 Wire Wire Line
 	4350 3650 4550 3650
+$Comp
+L Device:R R12
+U 1 1 5CCEE4EC
+P 9350 2800
+F 0 "R12" V 9250 2800 50  0000 C CNN
+F 1 "100" V 9350 2800 50  0000 C CNN
+F 2 "" V 9280 2800 50  0001 C CNN
+F 3 "~" H 9350 2800 50  0001 C CNN
+	1    9350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5CCF1B96
+P 9350 2600
+F 0 "R11" V 9250 2600 50  0000 C CNN
+F 1 "100" V 9350 2600 50  0000 C CNN
+F 2 "" V 9280 2600 50  0001 C CNN
+F 3 "~" H 9350 2600 50  0001 C CNN
+	1    9350 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5CCF1D7C
+P 9350 3000
+F 0 "R13" V 9250 3000 50  0000 C CNN
+F 1 "100" V 9350 3000 50  0000 C CNN
+F 2 "" V 9280 3000 50  0001 C CNN
+F 3 "~" H 9350 3000 50  0001 C CNN
+	1    9350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5CCF1F6E
+P 9350 3200
+F 0 "R14" V 9250 3200 50  0000 C CNN
+F 1 "100" V 9350 3200 50  0000 C CNN
+F 2 "" V 9280 3200 50  0001 C CNN
+F 3 "~" H 9350 3200 50  0001 C CNN
+	1    9350 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 3200 9000 3200
+Wire Wire Line
+	9200 3000 9000 3000
+Wire Wire Line
+	9000 2800 9200 2800
+Wire Wire Line
+	9200 2600 9000 2600
+Wire Wire Line
+	10300 3200 9500 3200
+Wire Wire Line
+	9500 3000 9600 3000
+Wire Wire Line
+	9600 3000 9600 3100
+Wire Wire Line
+	9600 3100 10300 3100
+Wire Wire Line
+	9800 2600 9500 2600
+Wire Wire Line
+	10300 2900 9800 2900
+Wire Wire Line
+	9800 2900 9800 2600
+Wire Wire Line
+	9700 3000 10300 3000
+Wire Wire Line
+	9500 2800 9700 2800
+Wire Wire Line
+	9700 2800 9700 3000
 $EndSCHEMATC
