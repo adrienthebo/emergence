@@ -11,7 +11,8 @@ impedance in power transmission lines.
 
 ## Compatibility
 
-- Teensy LC
+- Teensy 3.1
+- Teensy 3.2
 
 ## Design requirements
 
@@ -23,6 +24,7 @@ impedance in power transmission lines.
 - [x] Potentiometer
 - [ ] Level shifter for OCTO1 (74LV1T125)
 - [ ] Current limiting resistor for OCTO1 DO pin
+- [x] SPI CS pullup resistor
 
 ## Design ideas
 
@@ -36,3 +38,4 @@ impedance in power transmission lines.
 
 - Teensy LC
   - Pins 3 and 4 are reserved for OctoWS2811
+  - All pins must not be connected to +5V; Teensy LC is is not 5V tolerant.
