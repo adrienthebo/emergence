@@ -31,7 +31,7 @@ impedance in power transmission lines.
 - [ ] ESD protection for SPI?
 - [ ] Push button LEDs
 - [ ] Current limiting for WS2811 +5V
-- [ ] Break out I2C pins
+- [x] Break out I2C pins
 - [ ] Additional user controllable LEDs on PWM pins
 
 ## Constraints
