@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Clarke"
-Date ""
-Rev "1"
+Date "2019-04-12"
+Rev "v0.1.0"
 Comp "Lagrange Automation"
 Comment1 ""
 Comment2 ""
