@@ -32,7 +32,7 @@ impedance in power transmission lines.
 - [ ] Push button LEDs
 - [ ] Current limiting for WS2811 +5V
 - [x] Break out I2C pins
-- [ ] Additional user controllable LEDs on PWM pins
+- [x] Additional user controllable LEDs on PWM pins
 
 ## Constraints
 
