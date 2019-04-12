@@ -9,6 +9,10 @@ impedance in power transmission lines.
 
 [Edith Clarke]: https://en.wikipedia.org/wiki/Edith_Clarke
 
+## Compatibility
+
+- Teensy LC
+
 ## Design requirements
 
 - [x] Power LED
@@ -26,3 +30,8 @@ impedance in power transmission lines.
 - [ ] Current limiting for WS2811 +5V
 - [ ] Break out I2C pins
 - [ ] Additional user controllable LEDs on PWM pins
+
+## Constraints
+
+- Teensy LC
+  - Pins 3 and 4 are reserved for OctoWS2811
