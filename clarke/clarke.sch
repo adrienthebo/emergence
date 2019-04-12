@@ -392,11 +392,11 @@ SCK
 Wire Wire Line
 	10100 2800 10300 2800
 Text Label 10100 2900 2    50   ~ 0
-CS1
+~CS1
 Wire Wire Line
 	10100 2900 10300 2900
 Text Label 10100 3000 2    50   ~ 0
-CS2
+~CS2
 Wire Wire Line
 	10100 3000 10300 3000
 Wire Wire Line
@@ -417,9 +417,9 @@ $EndComp
 Wire Wire Line
 	4550 3550 4350 3550
 Text Label 4350 3550 2    50   ~ 0
-CS2
+~CS2
 Text Label 4350 3450 2    50   ~ 0
-CS1
+~CS1
 Wire Wire Line
 	4350 3450 4550 3450
 Wire Wire Line
